@@ -53,4 +53,3 @@ All rights reserved. © 2025 $GIGA
 ## ⚠️ Disclaimer
 
 $GIGA is a meme token for entertainment purposes only, with no expectation of profit or price increase. There is no owner of the $GIGA meme token project and it is entirely volunteer and community organized. Nothing on this page shall be construed as financial advice.
-
