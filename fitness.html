@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giga Fitness - $GIGA on XRPL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .fitness-hero {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--bg-darker) 0%, var(--bg-dark) 100%);
+            padding-top: 100px;
+            text-align: center;
+        }
+
+        .fitness-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .fitness-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .fitness-card {
+            background-color: var(--bg-darker);
+            border: 1px solid var(--border-color);
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .fitness-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 0, 0.2);
+        }
+
+        .fitness-card h3 {
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: var(--accent);
+        }
+
+        .fitness-card p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .fitness-card .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .workout-section {
+            padding: 80px 0;
+            background-color: var(--bg-dark);
+        }
+
+        .workout-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .workout-item {
+            background-color: var(--bg-darker);
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            text-align: center;
+        }
+
+        .workout-item h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .workout-item p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .nutrition-section {
+            padding: 80px 0;
+            background-color: var(--bg-darker);
+        }
+
+        .nutrition-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .nutrition-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        .nutrition-list li {
+            padding: 20px;
+            margin-bottom: 15px;
+            background-color: var(--bg-dark);
+            border-left: 4px solid var(--accent);
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .nutrition-list li strong {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .cta-fitness {
+            padding: 80px 0;
+            background-color: var(--bg-dark);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-links">
+                    <a href="index.html#memes">Memes</a>
+                    <a href="index.html#apparel">Apparel</a>
+                    <a href="fitness.html">Fitness</a>
+                    <a href="index.html#chart">Chart</a>
+                    <a href="index.html#community">Community</a>
+                    <a href="index.html#thesis">Thesis</a>
+                    <a href="index.html#tokenomics">Tokenomics</a>
+                </div>
+                <a href="index.html" class="buy-btn-nav" style="text-decoration: none; display: inline-block;">BUY $GIGA</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fitness Hero -->
+    <section class="fitness-hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Giga Fitness</p>
+                <h1 class="hero-title">Achieve <span class="highlight">Greatness</span></h1>
+                <p class="hero-description">Transform your mind, body, and spirit with the Giga Fitness philosophy. Built for GIGA Chads and Chadettes who refuse to settle for mediocrity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitness Philosophy -->
+    <section class="fitness-content">
+        <div class="container">
+            <p class="section-subtitle">THE GIGA WAY</p>
+            <h2 class="section-title">Mind, Body, Spirit</h2>
+            <div class="fitness-grid">
+                <div class="fitness-card">
+                    <div class="icon">💪</div>
+                    <h3>Physical Strength</h3>
+                    <p>Build a physique that commands respect. Train like a Gigachad with proven methods that deliver real results. No shortcuts, no excuses.</p>
+                </div>
+                <div class="fitness-card">
+                    <div class="icon">🧠</div>
+                    <h3>Mental Fortitude</h3>
+                    <p>Develop unshakeable confidence and mental resilience. A strong mind is the foundation of a Gigachad lifestyle.</p>
+                </div>
+                <div class="fitness-card">
+                    <div class="icon">⚡</div>
+                    <h3>Spiritual Power</h3>
+                    <p>Connect with your inner strength and purpose. True Gigachads understand that greatness comes from alignment of mind, body, and spirit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workout Programs -->
+    <section class="workout-section">
+        <div class="container">
+            <p class="section-subtitle">TRAINING PROGRAMS</p>
+            <h2 class="section-title">Choose Your Path</h2>
+            <div class="workout-grid">
+                <div class="workout-item">
+                    <h4>Beginner Gigachad</h4>
+                    <p>Start your journey with foundational movements and progressive overload. Perfect for those new to the GIGA lifestyle.</p>
+                </div>
+                <div class="workout-item">
+                    <h4>Intermediate Chad</h4>
+                    <p>Level up your training with advanced techniques and increased volume. For those ready to push beyond limits.</p>
+                </div>
+                <div class="workout-item">
+                    <h4>Elite Gigachad</h4>
+                    <p>Peak performance training for those who demand excellence. Maximum intensity, maximum results.</p>
+                </div>
+                <div class="workout-item">
+                    <h4>Chadette Program</h4>
+                    <p>Specialized training designed for GIGA Chadettes. Strength, confidence, and empowerment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition -->
+    <section class="nutrition-section">
+        <div class="container">
+            <div class="nutrition-content">
+                <p class="section-subtitle">FUEL YOUR GREATNESS</p>
+                <h2 class="section-title">Giga Nutrition</h2>
+                <p class="description">Nutrition is 80% of the battle. Feed your body like a Gigachad.</p>
+                <ul class="nutrition-list">
+                    <li><strong>High Protein:</strong> Build and maintain muscle mass with quality protein sources.</li>
+                    <li><strong>Complex Carbs:</strong> Fuel your workouts and recovery with smart carbohydrate choices.</li>
+                    <li><strong>Healthy Fats:</strong> Support hormone production and overall health.</li>
+                    <li><strong>Hydration:</strong> Stay hydrated for peak performance and recovery.</li>
+                    <li><strong>Meal Timing:</strong> Optimize your nutrition around your training schedule.</li>
+                    <li><strong>Supplements:</strong> Enhance your results with proven supplements (when needed).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apparel -->
+    <section class="apparel">
+        <div class="container">
+            <p class="section-subtitle">GIGA GEAR</p>
+            <h2 class="section-title">Represent the Movement</h2>
+            <p class="description">Wear your GIGA pride with premium fitness apparel designed for performance and style.</p>
+            <div class="fitness-grid" style="margin-top: 40px;">
+                <div class="fitness-card">
+                    <h3>Training Tanks</h3>
+                    <p>Premium tanks for your workouts. Built for performance, designed for style.</p>
+                </div>
+                <div class="fitness-card">
+                    <h3>Gym Shorts</h3>
+                    <p>Comfortable, durable shorts that move with you. No compromises.</p>
+                </div>
+                <div class="fitness-card">
+                    <h3>Accessories</h3>
+                    <p>Complete your GIGA look with hats, water bottles, and training gear.</p>
+                </div>
+            </div>
+            <a href="#" class="shop-btn" style="margin-top: 40px;">SHOP GIGA FITNESS</a>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-fitness">
+        <div class="container">
+            <h2 class="cta-title">READY TO BECOME GIGA?</h2>
+            <p class="description" style="margin-bottom: 30px;">Join the community of Chads and Chadettes transforming their lives.</p>
+            <a href="index.html#community" class="buy-btn-cta">JOIN THE COMMUNITY</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <h3>CONTACT</h3>
+                    <p>For Inquiries, please email<br><a href="mailto:team@gigachad.fitness">team@gigachad.fitness</a></p>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>
+                        $GIGA is a meme token for entertainment purposes only, with no expectation of profit or price increase. There is no owner of the $GIGA meme token project and it is entirely volunteer and community organized. Nothing on this page shall be construed as financial advice and users are subject to volatility and risks up to and including total loss of funds. Purchase of the $GIGA token is not an investment in Gigachad LLC, and there is no affiliation between the meme token and the LLC.
+                    </p>
+                </div>
+                <div class="footer-copyright">
+                    <p>© 2025 $GIGA | All Rights Reserved. | Website by Gigachad</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
